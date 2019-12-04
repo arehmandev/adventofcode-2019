@@ -41,3 +41,4 @@ if __name__ == '__main__':
         for x in range(100):
             if calculate(lines, i, x) == "19690720":
                 print("Solution 2 -", 100 * i + x)
+                break
